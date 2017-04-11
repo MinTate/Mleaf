@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dip"
+        android:layout_marginTop="5dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dip"
+            android:layout_gravity="bottom"
+            android:background="#33000000"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图片标题"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:orientation="horizontal" >
+
+                <View
+                    android:id="@+id/dot_0"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@drawable/dot_focused"/>
+
+                <View
+                    android:id="@+id/dot_1"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@drawable/dot_normal"/>
+                <View
+                    android:id="@+id/dot_2"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@drawable/dot_normal"/>
+                <View
+                    android:id="@+id/dot_3"
+                    android:layout_width="5dip"
+                    android:layout_height="5dip"
+                    android:layout_marginLeft="2dip"
+                    android:layout_marginRight="2dip"
+                    android:background="@drawable/dot_normal"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/news"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/news"/>
+        <Button
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:background="#DCDCDC"/>
+
+        <Button
+            android:id="@+id/leaf"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/camera"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#DCDCDC"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/flower"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/photo"/>
+
+        <Button
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:background="#DCDCDC"/>
+
+
+        <Button
+            android:id="@+id/cloud"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/favorite"/>
+    </LinearLayout>
+
+</LinearLayout>

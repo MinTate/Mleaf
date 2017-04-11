@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/category_title"
+    android:layout_width="wrap_content"
+    android:layout_height="40.0dip"
+    android:textSize="15.0dip"
+    android:textColor="@color/category_item_title_selector"
+    android:gravity="center"
+    android:singleLine="true" />
+    

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\Android\Mleaf\sliding_menu\res"><file name="slidingmenumain" path="F:\Android\Mleaf\sliding_menu\res\layout\slidingmenumain.xml" qualifiers="" type="layout"/><file path="F:\Android\Mleaf\sliding_menu\res\values\attrs.xml" qualifiers=""><declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr format="reference" name="viewAbove"/>
+        <attr format="reference" name="viewBehind"/>
+        <attr format="dimension" name="behindOffset"/>
+        <attr format="dimension" name="behindWidth"/>
+        <attr format="float" name="behindScrollScale"/>
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+            <enum name="none" value="2"/>
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+            <enum name="none" value="2"/>
+        </attr>
+        <attr format="reference" name="shadowDrawable"/>
+        <attr format="dimension" name="shadowWidth"/>
+        <attr format="boolean" name="fadeEnabled"/>
+        <attr format="float" name="fadeDegree"/>
+        <attr format="boolean" name="selectorEnabled"/>
+        <attr format="reference" name="selectorDrawable"/>
+    </declare-styleable></file><file path="F:\Android\Mleaf\sliding_menu\res\values\ids.xml" qualifiers=""><item name="selected_view" type="id"/></file></source><source path="F:\Android\Mleaf\sliding_menu\build\generated\res\rs\debug"/><source path="F:\Android\Mleaf\sliding_menu\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug"><source path="F:\Android\Mleaf\sliding_menu\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SlidingMenu"><attr name="mode"><enum name="left" value="0"/><enum name="right" value="1"/></attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/><enum name="none" value="2"/></attr><attr name="touchModeBehind"><enum name="margin" value="0"/><enum name="fullscreen" value="1"/><enum name="none" value="2"/></attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable></configuration></mergedItems></merger>

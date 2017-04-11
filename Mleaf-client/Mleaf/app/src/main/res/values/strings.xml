@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Mleaf</string>
+    <string name="title_activity_activity_register">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_verify">VerifyActivity</string>
+    <string name="empty"></string>
+    <string name="setting">设  置</string>
+    <string name="AboutUSText">\t\t\t西北大学智能信息处理实验室\n\n
+        \t地址：西北大学长安校区信息学院</string>
+    <string name="HelpText">使用\n\n\n</string>
+    <string name="HelpText1">资讯：植物培育知识，养花心情的推送\n\n</string>
+    <string name="HelpText2">识叶：拍照或选择图片判断植物种类\n\n</string>
+    <string name="HelpText3">收藏：存放用户识别后的植物种类和用户自己添加的植物种类</string>
+    <string name="leaf_news">资 讯</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loadmore_btn">加载更多</string>
+    <string name="loadmore_txt">正在加载，请稍候...</string>
+    <string name="no_news">该栏目下暂时没有资讯</string>
+    <string name="no_more_news">该栏目下没有更多资讯</string>
+    <string name="load_news_failure">获取资讯失败</string>
+    <string name="no_next_news">没有下篇资讯了</string>
+    <string name="no_pre_news">没有上篇资讯了</string>
+    <string name="IP">111.114.116.233</string>
+
+</resources>

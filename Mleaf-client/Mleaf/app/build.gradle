@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig {
+        applicationId "com.example.myq.mleaf"
+        minSdkVersion 8
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile files('libs/commons-codec-1.9.jar')
+    compile files('libs/android-support-v4.jar')
+    compile project(':sliding_menu')
+    compile files('libs/httpmime-4.1.jar')
+    compile files('libs/android-async-http-1.4.9.jar')
+    compile files('libs/android-async-http-1.4.4.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+}

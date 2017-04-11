@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:background="@drawable/main_background"
+	>
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal">
+		<TextView
+			android:id="@id/commentator_from"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10.0dip"
+			android:layout_marginTop="10.0dip"
+			android:textColor="#FF528AC6"
+			android:text="连云港朋友："
+			/>	
+		<TextView
+			android:id="@id/comment_ptime"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="5.0dip"
+			android:layout_marginTop="10.0dip"
+			android:text="2012-03-22 20:21:22"
+			android:textColor="#FF7B7D7B"
+			android:layout_alignParentRight="true"
+			/>	
+	</RelativeLayout>
+	<TextView
+		android:id="@id/comment_content"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10.0dip"
+		android:layout_marginLeft="10.0dip"
+		android:layout_marginBottom="10.0dip"
+		android:textColor="#FF6B696B"
+		android:textSize="18.0sp"
+		android:text="这样视频真的太好的！"
+		/>	
+</LinearLayout>

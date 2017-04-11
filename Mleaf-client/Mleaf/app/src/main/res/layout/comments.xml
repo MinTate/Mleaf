@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@id/comments_layout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/main_background"
+	>
+	<RelativeLayout
+		android:id="@id/comments_titlebar_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/titlebar_background"
+		android:layout_alignParentTop="true">
+		<TextView
+			android:id="@id/comments_titlebar_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20.0dip"
+			android:layout_marginTop="10.0dip" 
+			android:textSize="20.0sp"
+			android:textColor="@color/white"
+			android:text="跟帖"
+			/>
+		<Button
+			android:id="@id/comments_titlebar_news"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="50.0dip"
+			android:layout_marginTop="9.0dip"
+			android:background="@drawable/newsdetails_titlebar_comments_background"
+			android:textColor="@color/white"
+			android:textSize="14.0sp"
+			android:text="原  文"
+			/>
+		<ProgressBar
+			android:id="@id/comments_titlebar_progressbar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10.0dip"
+			android:layout_marginTop="18.0dip"
+			android:visibility="gone"
+			android:layout_toRightOf="@id/comments_titlebar_title"
+			style="\?android:attr/progressBarStyleSmall" />
+	</RelativeLayout>
+	<ListView
+		android:id="@id/comments_list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_above="@id/comments_reply_frame"
+		android:layout_below="@id/comments_titlebar_layout" 
+		android:layout_marginTop="-12.0dip"
+		android:scrollbars="none"
+		android:fadingEdge="none"
+		android:drawSelectorOnTop="false"
+		android:listSelector="@drawable/newslist_item_selector"
+		android:cacheColorHint="#00000000" 
+		android:divider="@drawable/list_separator_line"
+		/>
+	<include
+		android:id="@id/comments_reply_frame"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		layout="@layout/reply_frame" />
+</RelativeLayout>

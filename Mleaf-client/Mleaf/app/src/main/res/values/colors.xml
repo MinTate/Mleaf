@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffffff</color>
+    <color name="tools_box_bg">#ff333332</color>
+    <color name="text_white_shadow_color">#ff5a9487</color>
+    <item type="drawable" name="main_background">#ffe7e7e7</item>
+    <item type="drawable" name="newslist_item_background">#ffe7e7e7</item>
+    <item type="drawable" name="category_title_normal_background">#ffadb2ad</item>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@id/loadmore_layout"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+	<Button
+		android:id="@id/loadmore_btn"
+		android:layout_width="fill_parent"
+		android:layout_height="40.0dip"
+		android:layout_marginTop="0.0dip"
+		android:layout_centerHorizontal="true"
+		android:background="@drawable/newslist_item_selector"
+		android:textSize="18.0dip"
+		android:textColor="@color/loadmore_btn_selector"
+		android:text="@string/loadmore_btn"
+		 />
+	<ProgressBar
+		android:id="@id/loadmore_progress"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:visibility="gone"
+		android:layout_marginRight="15.0dip"
+		android:layout_alignRight="@id/loadmore_btn"
+		android:layout_centerVertical="true"
+		style="?android:attr/progressBarStyleSmall" />
+	<TextView
+		android:id="@id/loadmore_txt"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/loadmore_btn" 
+		android:enabled="false"
+		android:textSize="12.0dip"
+		android:background="@color/white"
+		android:focusable="false"
+		android:focusableInTouchMode="false"
+		android:visibility="invisible"
+		android:text="@string/loadmore_txt"
+		android:editable="false"
+		/>
+</RelativeLayout>

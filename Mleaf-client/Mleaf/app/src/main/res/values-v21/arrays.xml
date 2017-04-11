@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>1|培育技巧</item>
+        <item>2|美文随笔</item>
+        <item>3|大家作品</item>
+    </string-array>
+</resources>

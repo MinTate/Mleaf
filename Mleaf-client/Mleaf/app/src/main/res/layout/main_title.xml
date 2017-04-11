@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="44dip"
+    android:gravity="center_vertical"
+    android:padding="0.0px" >
+
+    <ImageView
+        android:id="@+id/rlCommenTitleBG"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/ic_comm_title_bg"/>
+
+    <TextView
+        android:id="@+id/ivTitleName"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingLeft="96.0dip"
+        android:paddingRight="96.0dip"
+        android:singleLine="true"
+        android:text="@string/app_name" />
+
+    <ImageButton
+        android:id="@+id/ivTitleBtnLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dip"
+        android:layout_centerVertical="true"
+        android:background="@drawable/showleft_selector"
+        android:gravity="center"
+        android:includeFontPadding="false" />
+
+</RelativeLayout>
